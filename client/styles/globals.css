@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container {
+    margin: 0;
+    padding: 0;
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+td button {
+    margin-right: 5px;
+}
+
+.formulario {
+    background-color: lightgray ;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-center {
+    justify-items: center;
+}

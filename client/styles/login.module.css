@@ -1,0 +1,25 @@
+.container {
+    margin: 0;
+    padding: 0;
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.formulario {
+    background-color: lightgray ;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px;
+}
+
+.name {
+padding-bottom: 20px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+}
